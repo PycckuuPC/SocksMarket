@@ -1,0 +1,85 @@
+* {
+  box-sizing: unset;
+}
+
+.pattern {
+  width: 240px;
+  position: absolute;
+}
+
+.pic {
+  width: 75px;
+  position: absolute;
+  padding-top: 50px;
+  padding-left: 115px;
+  box-sizing: unset;
+}
+
+.color {
+  width: 240px;
+  height: 240px;
+}
+
+.logo {
+  width: 80px;
+}
+
+.patternMini {
+  padding: 5px;
+  width: 80px;
+}
+
+.picMini {
+  padding: 5px;
+  height: 80px;
+  margin-left: 10px;
+}
+
+.colorMini {
+  margin: 5px;
+  width: 60px;
+  height: 60px;
+}
+
+.config {
+  text-align: center;
+}
+
+.options {
+  background-color: rgb(248, 248, 248);
+  display: inline-flex;
+}
+
+.sockHov {
+  width: 550px;
+  height: 450px;
+  padding-top: 5%;
+  transition: 0.5s;
+}
+
+.sockHov:hover {
+  transform: scale(1.1);
+}
+
+.icons {
+  height: 30px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+}
+
+.afterConstructor {
+  margin-top: 300px;
+}
+
+.inFavorite {
+  margin-top: 240px;
+}
+
+button {
+  margin: 10px;
+}
+
+body {
+  margin-left: 10vh;
+  background-color: #2f4f4f;
+}
